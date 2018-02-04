@@ -1,0 +1,21 @@
+Public Class InsertionSort{
+   int arr[]={5,1,12,-5,16}
+    public int[] insertionSort(int arr[])
+    { 
+        int length=arr.length();
+       for(int i=1;i<length-1;i++){
+           for(inj =i;j>0;j--){
+               int temp;
+               if(arr[j]>arr[j-1]){
+                 temp=arr[j];
+                  arr[j]=arr[j-1];
+                  arr[j-1]=temp;
+                  }
+                }
+               }
+             return arr;
+           }
+       }
+       
+        
+        
