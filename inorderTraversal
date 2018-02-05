@@ -1,0 +1,22 @@
+    int data;
+    Node left, right;
+   Node(int item)    {
+        data = item;
+        left = right = null;
+    }
+} */
+class GfG
+{
+    void inOrder(Node root)
+    {
+        if(root.left!=null){
+            inOrder(root.left);
+            
+        }
+        system.printoutln(root.data);
+        if(root.right!=null){
+            inOrder(root.right);
+        }
+        
+    }
+}
